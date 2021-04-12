@@ -86,9 +86,29 @@ header {
 #about-me h2, p {
   padding: 20px;
   text-align: center;
-
 }
 
+/* My Work */
+
+#my-work {
+  text-align: center;
+}
+
+.workImg img{
+  height: 300px;
+  width: 600px;
+  border: rgb(90, 90, 90);
+  border-radius: 5px;
+  align-items: center;
+}
+
+.workImg img:hover {
+  height: 300px;
+  width: 600px;
+  border: rgb(90, 90, 90);
+  border-radius: 5px;
+  opacity: 0.5;
+}
 
 /* FOOTER STYLE BEGINS */
 
